@@ -22,7 +22,7 @@ export default async function UsersLayout({
   return (
     <section className='py-12'>
       <div className='container'>
-        <h1 className='text-2xl font-semibold'>All Users</h1>
+        <h1 className='text-2xl font-semibold'>Beneficiaries</h1>
 
         <div className='mt-6 flex overflow-hidden rounded-lg shadow dark:shadow-gray-700'>
           <ul className='flex flex-col gap-2 bg-gray-100 p-8 text-sm dark:bg-gray-800'>
