@@ -29,7 +29,7 @@ export default async function UsersLayout({
             {users?.map(user => (
               <li key={user.id}>
                 <Link
-                  href={`/users/${user.id}`}
+                  href={`/beneficiary/${user.id}`}
                   className={cn(
                     user.id === userId &&
                       'underline decoration-sky-500 underline-offset-4'

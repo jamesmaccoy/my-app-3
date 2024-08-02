@@ -1,5 +1,5 @@
-import User from '@/app/components/user'
-import Users from '@/app/components/users'
+import User from '@/components/User'
+import Users from '@/components/Users'
 
 import { getTodosByUserId, getUsers } from '@/lib/users'
 
